@@ -6,23 +6,57 @@
   color: #2f2f37;
   max-width: 960px;
   padding: 16px;
+
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: red;
+  }
+
+  code {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff6b0a;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+
+  .background-1 {
+    height: 240px;
+    // ❗️❗️❗️
+    //! Шлях до зображень із SASS-файлу
+    //! завжди такий самий, як із папки css:
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .background-2 {
+    width: 1100px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 193, 193);
+  }
 }
 
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #ff6b0a;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
+// .example code {
+//   font-family: monospace;
+//   font-size: 16px;
+//   font-weight: 700;
+//   background-color: #ff6b0a;
+//   color: #fff;
+//   padding: 2px 6px;
+//   border-radius: 2px;
+// }
 
-.example .background {
-  height: 240px;
-  // ❗️❗️❗️ The path to images from a SASS file
-  // is always the same as from the css folder.
-  background-image: url('../images/logo.png');
-  background-size: cover;
-  background-position: center;
-}
+
+// .example .background {
+//   height: 240px;
+//   // ❗️❗️❗️ The path to images from a SASS file
+//   // is always the same as from the css folder.
+//   background-image: url('../images/logo.png');
+//   background-size: cover;
+//   background-position: center;
+// }

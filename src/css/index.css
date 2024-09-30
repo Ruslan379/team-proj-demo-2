@@ -7,7 +7,11 @@
   max-width: 960px;
   padding: 16px;
 }
-
+.example h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: red;
+}
 .example code {
   font-family: monospace;
   font-size: 16px;
@@ -17,10 +21,15 @@
   padding: 2px 6px;
   border-radius: 2px;
 }
-
-.example .background {
+.example .background-1 {
   height: 240px;
   background-image: url("../images/logo.png");
   background-size: cover;
   background-position: center;
+}
+.example .background-2 {
+  width: 1100px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 193, 193);
 }/*# sourceMappingURL=index.css.map */
