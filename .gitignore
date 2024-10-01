@@ -110,9 +110,7 @@ dist
 
 # Temporary files
 .tmp
-<<<<<<< Updated upstream
 
 # Parcel-cache file
 .parcel-cache
-=======
->>>>>>> Stashed changes
+
