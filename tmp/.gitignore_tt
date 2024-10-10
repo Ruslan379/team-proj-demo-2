@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # Temporary files
-.tmp
+tmp/
 
 # Parcel-cache file
 .parcel-cache
