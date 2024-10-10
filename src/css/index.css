@@ -11,6 +11,7 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
   color: red;
+  outline: 1px solid blue;
 }
 .example code {
   font-family: monospace;
@@ -27,9 +28,17 @@
   background-size: cover;
   background-position: center;
 }
-.example .background-2 {
+.example .background {
   width: 1100px;
   padding: 10px;
   text-align: center;
+}
+.example .background-2 {
   background-color: rgb(255, 193, 193);
+}
+.example .background-3 {
+  background-color: rgb(223, 255, 193);
+}
+.example .background-4 {
+  background-color: rgb(193, 215, 255);
 }/*# sourceMappingURL=index.css.map */
